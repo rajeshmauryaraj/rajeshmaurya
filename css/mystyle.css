@@ -1,0 +1,46 @@
+﻿.profileimg {
+    border: 1px solid black;
+    padding: 3px;
+    outline: 1px white dotted;
+    outline-offset: -10px;
+}
+
+.logosetting {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+.skillstxt {
+    color: white;
+    font-size: 12px;
+    margin-top: -6px;
+   font-weight:bold;
+    position: absolute;
+    text-align: center;
+}
+
+
+
+
+.zoom-in-out-box {
+  margin: 24px;
+  /*width: 50px;
+  height: 50px;*/
+  /*background: #f50057;*/
+  animation: zoom-in-zoom-out 5s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
